@@ -1,0 +1,8 @@
+D:\vidya project\Calibre Speciality\Calibre Speciality\bin\Calibre Speciality.dll
+D:\vidya project\Calibre Speciality\Calibre Speciality\bin\Calibre Speciality.pdb
+D:\vidya project\Calibre Speciality\Calibre Speciality\obj\Debug\Calibre Speciality.dll
+D:\vidya project\Calibre Speciality\Calibre Speciality\obj\Debug\Calibre Speciality.pdb
+\\COMP1\vidya project2\Calibre Speciality\Calibre Speciality\bin\Calibre Speciality.dll
+\\COMP1\vidya project2\Calibre Speciality\Calibre Speciality\bin\Calibre Speciality.pdb
+\\COMP1\vidya project2\Calibre Speciality\Calibre Speciality\obj\Debug\Calibre Speciality.dll
+\\COMP1\vidya project2\Calibre Speciality\Calibre Speciality\obj\Debug\Calibre Speciality.pdb

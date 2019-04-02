@@ -1,0 +1,248 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Calibre_Speciality.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head runat="server">
+  <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="themexriver">
+
+    <!-- Page Title -->
+    <title> Calibre</title>
+
+    <!-- Favicon and Touch Icons -->
+    <link href="images/logo cse.jpg" rel="shortcut icon" type="image/png">
+
+    <!-- Icon fonts -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/flaticon.css" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Plugins for this template -->
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
+    <link href="css/slick.css" rel="stylesheet">
+    <link href="css/slick-theme.css" rel="stylesheet">
+    <link href="css/owl.transitions.css" rel="stylesheet">
+    <link href="css/jquery.fancybox.css" rel="stylesheet">
+    <link href="css/jquery.mCustomScrollbar.min.css" rel="stylesheet">
+    <link href="css/style.css?v=3.01.19" rel="stylesheet">
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body>
+    <form id="form1" runat="server">
+     <!-- start page-wrapper -->
+    <div class="page-wrapper">
+
+        <!-- start preloader -->
+        <div class="preloader">
+            <div class="preloader-inner">
+                <img src="images/preloader.gif" alt>
+            </div>
+        </div>
+        <!-- end preloader -->
+
+        <!-- Start header -->
+        <header id="header" class="site-header header-style-5">
+            <div class="topbar topbar-style-2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col col-sm-7">
+                            <div class="topbar-contact-info-wrapper">
+                                <div class="topbar-contact-info">
+                                    <div>
+                                       <i class="fa fa-envelope"></i>
+                                        <div class="details">
+                                            <p>info@calibreelastomers.com</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <i class="fa fa-phone"></i>
+                                        <div class="details">
+                                            <p>+91  8424026099</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-sm-5">
+                            <div class="social">
+                                <span>Follow: </span>
+                                <ul class="social-links">
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- end container -->
+            </div> <!-- end topbar -->
+
+            <div class="lower-topbar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col col-sm-3">
+                            <div class="site-logo">
+                                <a href="Index.aspx"><img src="images/logo cse.jpg" alt="" /></a>
+                            </div>
+                        </div>
+                        <%--<div class="col col-sm-9">
+                            <div class="awards">
+                                <div>
+                                    <div class="icon"><i class="fi flaticon-title"></i></div>
+                                    <div class="award-info" style="    margin-top: 8px;">
+                                        <h4>Global Certified</h4>
+                                        <p>ISO 9001:2016</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="icon"><i class="fi flaticon-medal"></i></div>
+                                    <div class="award-info">
+                                        <h4>Winner</h4>
+                                        <p>Construction award 2016</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>--%>
+                    </div>
+                </div>
+            </div>
+            <!-- end lower-topbar -->
+
+            <nav class="navigation navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="open-btn">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse navigation-holder">
+                        <button class="close-navbar"><i class="fa fa-close"></i></button>
+                        <ul class="nav navbar-nav">
+                            <li class="menu-item-has-children">
+                                <a href="Index.aspx">Home</a>
+                               <%-- <ul class="sub-menu">
+                                    <li><a href="index.html">Home Style 1</a></li>
+                                    <li><a href="index-2.html">Home Style 2</a></li>
+                                    <li><a href="index-3.html">Home Style 3</a></li>
+                                    <li><a href="index-4.html">Home Style 4</a></li>
+                                    <li><a href="index-5.html">Home Style 5</a></li>
+                                    <li><a href="index-6.html">Home Style 6</a></li>
+                                    <li class="menu-item-has-children">
+                                        <a href="#Level3">Thidr level</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="#">Level3</a></li>
+                                            <li><a href="#">Level3</a></li>
+                                            <li><a href="#">Level3</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>--%>
+                            </li>
+                            <li><a href="About.aspx">About Us</a></li>
+                            <li><a href="Technical.aspx">Technical Library</a></li>
+                            <li><a href="Product.aspx">Product</a></li>
+                            <li><a href="Contact.aspx">Contact</a></li>
+                            <li><a href="Index.aspx#enquiry">Enquiry</a></li>
+                        </ul>
+                    </div><!-- end of nav-collapse -->
+
+
+                </div><!-- end of container -->
+            </nav> <!-- end navigation -->
+        </header>
+        <!-- end of header -->
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+        </div>
+           <!-- start site-footer -->
+        <footer class="site-footer">
+            <div class="upper-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col col-md-4 col-sm-6">
+                            <div class="widget about-widget">
+                                <div class="footer-logo"><img src="images/logo cse.png" alt="" style="margin-top: -11px;"/></div>
+                                <ul class="contact-info">
+                                 <li><i class="fa fa-phone"></i>+91   8424026099</li>
+                                    <li><i class="fa fa-envelope"></i> info@calibreelastomers.com</li>
+                                    <li><i class="fa fa-map-marker"></i> Calibre Speciality Elastomers India Pvt. Ltd. 165,
+                                     Uttari Sardhana Rd, Adarsh Nagar,Meerut Cantt
+                                     , U.P.- 250001</li>
+                                   
+                                </ul>
+                            </div>
+                        </div>
+
+
+                        <div class="col col-md-1 col-sm-6"></div>
+                        <div class="col col-md-3 col-sm-6">
+                            <div class="widget quick-links-widget">
+                                <h3>Navigation</h3>
+                                <ul>
+                                    <li><a href="Index.aspx">Home</a></li>
+                                    <li><a href="About.aspx">About Us</a></li>
+                                    <li><a href="Product.aspx">Product</a></li>
+                                    <li><a href="Contact.aspx">Contact</a></li>
+
+                                </ul>
+
+                            </div>
+                        </div>
+
+                         <div class="col col-md-1 col-sm-6"></div>
+                        <div class="col col-md-3 col-sm-6">
+                            <div class="widget twitter-feed-widget">
+                                <h3>Social Media</h3>
+                                  <ul class="social-links">
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- end upper-footer -->
+            <div class="copyright-info">
+                <div class="container">
+                    <p>2018 &copy; All Rights Reserved by <a href="#">Flowkod System</a></p>
+                </div>
+            </div>
+        </footer>
+        <!-- end site-footer -->     
+
+    <!-- All JavaScript files
+    ================================================== -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugins for this template -->
+    <script src="js/jquery-plugin-collection.js"></script>
+    <script src="js/jquery.mCustomScrollbar.js"></script>
+
+    <!-- Custom script for this template -->
+    <script src="js/script.js?v=3.01.19"></script>
+    </form>
+</body>
+</html>
